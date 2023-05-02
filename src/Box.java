@@ -3,8 +3,7 @@ public class Box {
     double height;
     double depth;
 
-    void volume() {
-        System.out.print("Объём равен ");
-        System.out.println(width * height * depth);
+    double volume() {
+        return width * height * depth;
     }
 }
